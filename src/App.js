@@ -6,7 +6,7 @@
     let [isMorning, setMorning]=useState(true)
     return (
       <div className={`box ${isMorning ? 'dayLight' : ''}`} >
-      <h1> Have a good {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1> Have a very good {isMorning ? 'Morning' : 'Night'}</h1>
       
       <Message counter={count}/> 
       <button onClick={
